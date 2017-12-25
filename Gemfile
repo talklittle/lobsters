@@ -32,6 +32,9 @@ gem "activerecord-typedstore"
 # for twitter-posting bot
 gem "oauth"
 
+# for acting as OAuth 2.0 provider
+gem "doorkeeper"
+
 # for parsing incoming mail
 gem "mail"
 

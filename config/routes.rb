@@ -1,4 +1,5 @@
 Lobsters::Application.routes.draw do
+  use_doorkeeper
   scope :format => "html" do
     root :to => "home#index",
       :protocol => (Rails.application.config.force_ssl ? "https://" : "http://"),
