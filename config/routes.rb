@@ -190,4 +190,12 @@ Lobsters::Application.routes.draw do
     get "/about" => "home#about"
     get "/chat" => "home#chat"
   end
+
+  scope :format => "json" do
+    namespace :api do
+      namespace :v1 do
+        get "/messages" => "messages#index"
+      end
+    end
+  end
 end
