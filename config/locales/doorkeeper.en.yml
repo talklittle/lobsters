@@ -122,3 +122,20 @@ en:
           home: 'Home'
       application:
         title: 'OAuth authorization required'
+
+    scopes:
+      public: 'Read public info'
+      vote: 'Upvote stories and comments'
+      flag: 'Flag stories and comments'
+      stories: 'Submit and edit stories'
+      comments: 'Create and edit comments'
+      readmessages: 'Read private messages'
+      writemessages: 'Write private messages'
+      suggesttags: 'Suggest tags on stories'
+      hidestories: 'Hide stories'
+      savestories: 'Save stories'
+      invite: 'Invite new users'
+      profile: 'Edit your public profile'
+      changeusername: 'Change your username'
+      preferences: 'Read/write your preferences'
+      tagfilters: 'Read/write your tag filters'
