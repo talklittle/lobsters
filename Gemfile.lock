@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/talklittle/doorkeeper.git
+  revision: d4782e8e014b619fd43ce999adefcfc94d48369e
+  branch: validate-application-scopes-configured
+  specs:
+    doorkeeper (4.3.1)
+      railties (>= 4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -53,8 +61,6 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.3)
     diff-lcs (1.3)
-    doorkeeper (4.2.6)
-      railties (>= 4.2)
     dynamic_form (1.1.4)
     erubi (1.7.1)
     exception_notification (4.2.2)
@@ -188,7 +194,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.2)
   bullet
   commonmarker (~> 0.14)
-  doorkeeper
+  doorkeeper!
   dynamic_form
   exception_notification
   faker
