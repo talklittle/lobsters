@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180201184612) do
+ActiveRecord::Schema.define(version: 20180314202041) do
 
   create_table "comments", id: :integer, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
     t.datetime "created_at", null: false
@@ -164,6 +164,7 @@ ActiveRecord::Schema.define(version: 20180201184612) do
     t.datetime "updated_at", null: false
     t.integer "owner_id"
     t.string "owner_type"
+    t.boolean "confidential", default: true, null: false
     t.index ["owner_id", "owner_type"], name: "index_oauth_applications_on_owner_id_and_owner_type"
     t.index ["uid"], name: "index_oauth_applications_on_uid", unique: true
   end
