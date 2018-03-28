@@ -33,7 +33,7 @@ gem "activerecord-typedstore"
 gem "oauth"
 
 # for acting as OAuth 2.0 provider
-gem "doorkeeper", :git => "https://github.com/talklittle/doorkeeper.git", :branch => "validate-application-scopes-configured"
+gem "doorkeeper", :git => "https://github.com/doorkeeper-gem/doorkeeper.git", :ref => "7a44f73349cfc26647126045a61d4f9470591131"
 
 # for parsing incoming mail
 gem "mail"

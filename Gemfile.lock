@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/talklittle/doorkeeper.git
-  revision: d4782e8e014b619fd43ce999adefcfc94d48369e
-  branch: validate-application-scopes-configured
+  remote: https://github.com/doorkeeper-gem/doorkeeper.git
+  revision: 7a44f73349cfc26647126045a61d4f9470591131
+  ref: 7a44f73349cfc26647126045a61d4f9470591131
   specs:
-    doorkeeper (4.3.1)
+    doorkeeper (4.3.2)
       railties (>= 4.2)
 
 GEM
